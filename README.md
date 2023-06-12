@@ -1,6 +1,11 @@
 # The-Key-Quest
 
+Aspect - 16:9
+
+Scene - Assets/Game.unity
+
 Assets:
+
 music - https://www.chosic.com/download-audio/45382/
 
 sounds - https://pixabay.com/pl/sound-effects/search/creaking-door/
