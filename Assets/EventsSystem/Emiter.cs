@@ -4,10 +4,8 @@ using UnityEngine;
 
 public class Emiter : MonoBehaviour
 {
-    // Start is called before the first frame update
     void Awake()
     {
-        //Tworzenie Eventu
         newEvents.Create("Start");
         
                 
@@ -15,13 +13,11 @@ public class Emiter : MonoBehaviour
                 
     }
 
-    // Update is called once per frame
     void Update()
     {
 
         if (Input.GetKeyDown(KeyCode.S))
         {
-            //Wywo³ywanie Eventu
             newEvents.Induce("Start");
             
             
